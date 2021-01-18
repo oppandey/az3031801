@@ -1,0 +1,36 @@
+Non-Functional Requirement
+---------------------------
+- Scalability
+- Reliability
+- Cost Efficiency
+- Predictability
+- Manageability
+- Maintainability
+- Extensibility
+- *abilities
+
+Consumption based billing
+
+Governance Architecture ==> Compliance REadiness
+- Management GRoups
+- Subscription
+- Billing MAnagement
+- REsource Groups
+- Policy Management
+- PIM/MFA/Identity Protection
+
+
+Hybrid
+- LOB Applications
+- High End Devices/System speciliazed
+- Stage/Phase wise Migration
+-- 500 Users/20 application
+-- 5000 Users/200 apps
+-- Remaining users and apps
+- Hybrid Systems/Env
+- Complex req.
+
+AWS/GCE - On Premises
+
+MS - Servers and Server Based Applications
+- Hybrid Support/Migration and backward integration

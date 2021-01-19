@@ -1,0 +1,40 @@
+Cloud Journey
+- On Premises ==> Cloud
+- Phase wise
+-- Steps every phase
+
+Create Sample Users
+- POC
+- Data Dumping/Archived
+- Cost Effective Solutions
+- Consumption based billing
+- Global Access
+- Disaster recovery solutions
+
+Customer Case Studies
+- Implementation Scenarios and Impln Diagrams
+- Problems ===> Solutions ===> Cost Benefit
+- Listening -> Problem Nuances or details
+- Decision making or Choosing features
+- Expectations ===> Map requirements with Cost using Pricing Calculator
+
+AD => AAD [Free, O365, P1, P2]
+
+Networking
+- Bandwidth - Region
+
+Scalability
+Security
+SLA of Delivery
+Support SLA
+Packaged Solution
+
+
+Storage Req
+------------
+Unstructured Data - Blobs, Images, Videos, Audio, DB Backup, VM Backups, Site Backup
+
+Structured Data - RDBMS, REdis Cache
+
+Semi-Structured Data - No SQL DBs
+- Cosmos DB - Cassandra, MongoDB, Azure Table, Gremlin, DocumentDB 

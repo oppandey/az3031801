@@ -38,3 +38,54 @@ Structured Data - RDBMS, REdis Cache
 
 Semi-Structured Data - No SQL DBs
 - Cosmos DB - Cassandra, MongoDB, Azure Table, Gremlin, DocumentDB 
+
+Customer Questionare
+---------------------
+- Web App Questionarie
+- RDBMS Questionarie
+- Storage Questionarie
+- Workload Specific Questionarie
+
+
+Storage Redundancy
+------------------
+1) LRS, GRS, RA-GRS - Avaialble in each region
+2) ZRS, GZRS, RA-GZRS - Availability Zones
+
+Blob Storage
+- Page Blob - VHD files [On Premises - ISO Files, Data Backup (VHD), File Shared (VHD)]
+- Block Blob - Audio Video files [Media files, Backup] 
+- Append Blobs - Log Files
+
+Access Tier
+- Hot Tier - Transactional Data
+- cool Tier
+- Archieve Tier - First step for Data Migration
+
+https://ompstorage1901.blob.core.windows.net/samplecont/folder1/79366061_423801715169248_143162392530911232_n.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2021-01-20T14:45:00Z&st=2021-01-19T06:45:00Z&spr=https&sig=ZE1N5imMzAPgTXHrhgIhz%2BMXeyGk6jg%2FkBlrwmz6Mms%3D
+
+https://ompstorage1901.blob.core.windows.net/samplecont/folder1/79366061_423801715169248_143162392530911232_n.jpg
+
+Compute
+- VMs 
+-- OS - Linux, Windows - Server, 10
+-- Size and Complexity - HPC, VMWare, SAP, SQL Server VM, Oracle VM, SPS VM, Azure Batch, Dedicated Host, Dev Test
+-- App Service Plan - Microsoft Managed Web Server Farm (VMs) - PaaS
+--- Free, Std, Premium, Isolated
+--- Web Site Hosting
+--- Web App settings
+
+
+Cost Efficiency and Managing REsource Inventory
+------------------------------------------------
+- Permissions - Contributor permissions, Owner - Subscription? - Why
+-- Reader, Contributor to specific service
+-- Activity Logs
+-- Policies - Resource Creation - Tag Value
+-- Resource Group - Cost Limit
+-- Subscription - Cost Limit
+--- Policies - D1_v2, Ds4_v2...
+-- Automation - Auto Shutdown
+
+- VM Images (SWs)
+- Additional Data Disk

@@ -35,3 +35,37 @@ VMSS Installation
 -- VM Image ===> VMSS
 2) Non-GUI
 -- PowerShell Script ===> Path of GIT Repo
+
+Compute - Enormous
+Storage - Bottomless 
+Networking - Organize
+
+Data - Protection, Security, Manageability - End To End Encryption
+- Storage Account, RDBMS, Cosmos DB, Data Lake, Disk
+- Managed Security - VEndor, Customer DEfined Security - Custom Keys, Bitlocker, Device Based (HSM keys), Microsoft Endpoint Management 
+
+App Service Plan - 2 REgion [Southeast Asia, East US2]
+Front Door Service - Associate both App Service Plans - HTTPs Load Balancer
+
+Load Balanced WebApp
+---------------------
+1) Create VM - Windows Server/Linux
+2) Install IIS/NGINX
+3) Create Image - sysprep /generalize shutdown, Capture Image
+4) Availability Set - FD, UP / VMSS - Custom Image, 2 VMs
+5) AV Set - 2 Vms using existing VM Image
+6) Load Balancer
+6.1) Front End Config - Public IP, DNS
+6.2) BAckend Pool - VMSS, VMs
+6.3) HEalth Probe
+6.4) LB Rules
+
+
+
+
+
+
+
+
+
+

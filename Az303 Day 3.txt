@@ -1,0 +1,37 @@
+VM Costing
+----------
+Location/REgion
+VM Size/Type
+OS - Linux/Windows
+Workload - SQL/BizTalk/Oracle
+Disks - Managed/Unmanaged [SSD/SATA]
+Reserved Instances - 1 yr, 3 yrs
+DevTest Model
+Number of VMs
+Time of Usage
+
+Limitations of AVSet - Small deployment on HA [DBs - RDBMS]
+--------------------
+1) VMs can be of different type and size
+2) No Autoscale facility avaiable
+3) No Centralized update/upgrade process
+4) No process of using custom VM Images
+5) Max number of VMs is determined by Fault Domain and Update Domain
+6) Each VM diffrent USername and PWD
+
+VMSS - Web Apps
+----
+1) Same Type and Size
+2) Same Custom VM Image
+3) Autoscale - CPU Utilization, Memory, Network Bandwidth...
+4) Automatic mgnt of FD and UD
+5) Centralized Upgrade and Update
+6) Can go upto 100 instances
+6) All VM same Username and PWD
+
+VMSS Installation
+------------------
+1) GUI based SW
+-- VM Image ===> VMSS
+2) Non-GUI
+-- PowerShell Script ===> Path of GIT Repo

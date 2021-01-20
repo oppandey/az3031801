@@ -60,12 +60,15 @@ Load Balanced WebApp
 6.3) HEalth Probe
 6.4) LB Rules
 
+AAD REsgiter Multitenant Application
+--------------------------------------
+Root Application/<tenant-name>
 
-
-
-
-
-
+VNet - 3 Subnets - JumpSubnet, WorkloadSubnet, Firewallsubnet
+Azure Firewall in firewall subnet
+UDR - USer Defined Routing - NVA
+VMs in Jumpsubnet, Workload Subnet
+DNAT rules, SNAT rules - DNS allow or blocking
 
 
 
